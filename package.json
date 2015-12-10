@@ -1,0 +1,24 @@
+{
+  "name": "express-github-org-auth",
+  "version": "1.0.0",
+  "description": "Attach Express/Connect middlewares to an app to require GitHub organization auth to access resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"todo\""
+  },
+  "keywords": [
+    "express",
+    "connect",
+    "middleware",
+    "oauth",
+    "github",
+    "org",
+    "organization"
+  ],
+  "author": "Joshua Gross <josh@swift-nav.com>",
+  "license": "MIT",
+  "dependencies": {
+    "passport": "^0.3.2",
+    "passport-github": "^1.0.0"
+  }
+}
