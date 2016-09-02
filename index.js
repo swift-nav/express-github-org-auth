@@ -39,7 +39,7 @@ function installAuth (host, requiredOrg, app) {
 
   passport.deserializeUser(function(obj, done) {
     if (!lazyUserDict[obj]) {
-      return done(null, null);
+      return done(null, {});
     }
     return done(null, lazyUserDict[obj]);
   });
